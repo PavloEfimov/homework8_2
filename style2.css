@@ -25,7 +25,7 @@ nav{
 	/*background-color: yellow;*/
 }
 main{
-width: 40%;
+width: 44%;
 padding: 2% 1%;
 
 }
@@ -33,7 +33,7 @@ img{
 	width: 100%;
 }
 aside{
-	width: 25%;
+	width: 26%;
 	background-color: #c0f6f3;
 	padding: 2% 1%;
 }
@@ -41,9 +41,12 @@ aside h2, aside p{
 	margin-top: 6%;
 }
 nav, main, aside{
-	display: inline-block;
+	float: left;
 	vertical-align: top;
 	margin: 1%;
+}
+aside{
+	margin-right: 0;
 }
 a{
 	border-bottom: 1px solid #ecebeb;
@@ -52,7 +55,7 @@ a{
 	color: black;
 	line-height: 200%;
 }
-@media all and (max-width: 500px){
+@media all and (max-width: 640px){
 	nav, main, aside{
 		width: 100%;
 	}
