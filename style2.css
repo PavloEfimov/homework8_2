@@ -55,6 +55,9 @@ a{
 	color: black;
 	line-height: 200%;
 }
+ul{
+	list-style: none;
+}
 @media all and (max-width: 640px){
 	nav, main, aside{
 		width: 100%;
